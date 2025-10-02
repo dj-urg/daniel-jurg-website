@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { ArrowDown, Mail, Linkedin, Github, Twitter, FileText, Award, Users, Code, Database } from 'lucide-react'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -52,9 +53,11 @@ export default function Home() {
             >
               <div className="relative">
                 <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-white shadow-2xl">
-                  <img 
+                  <Image 
                     src="/profile-image.jpg" 
                     alt="Daniel Jurg - Digital Conservative Media Researcher"
+                    width={160}
+                    height={160}
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -131,10 +134,10 @@ export default function Home() {
               <p className="text-gray-600 leading-relaxed">
                 As a PhD Candidate at Vrije Universiteit Brussel, I study <span className="accent-text font-semibold">conservative media</span> 
                 and digital audience engagement. My research focuses on understanding how digital platforms shape communication 
-                and social behavior, particularly through YouTube's alternative influence network and reactionary fandoms.
+                and social behavior, particularly through YouTube&apos;s alternative influence network and reactionary fandoms.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                I'm particularly interested in <span className="accent-text font-semibold">audience capture</span>, reactionary fandoms, and developing 
+                I&apos;m particularly interested in <span className="accent-text font-semibold">audience capture</span>, reactionary fandoms, and developing 
                 innovative approaches to studying digital conservative media. My work includes the data-mirroring framework and 
                 has been presented at international conferences and workshops.
               </p>
@@ -446,7 +449,7 @@ export default function Home() {
               Get In Touch
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              I'm always interested in discussing new research opportunities and collaborations
+              I&apos;m always interested in discussing new research opportunities and collaborations
             </p>
           </motion.div>
 
@@ -459,10 +462,10 @@ export default function Home() {
               className="space-y-8"
             >
               <div className="space-y-6">
-                <h3 className="text-2xl font-semibold text-gray-900">Let's Connect</h3>
+                <h3 className="text-2xl font-semibold text-gray-900">Let&apos;s Connect</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Whether you're interested in collaboration, have questions about my research, 
-                  or want to discuss potential opportunities, I'd love to hear from you.
+                Whether you&apos;re interested in collaboration, have questions about my research, 
+                or want to discuss potential opportunities, I&apos;d love to hear from you.
                 </p>
               </div>
 
