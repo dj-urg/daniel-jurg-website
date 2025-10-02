@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  .glass-effect {
+    @apply bg-white/90 backdrop-blur-xl border border-gray-200/50;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-black to-gray-600 bg-clip-text text-transparent;
+  }
+  
+  .accent-text {
+    @apply text-accent-red;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:scale-105 hover:shadow-xl;
+  }
+  
+  .button-primary {
+    @apply bg-black text-white px-6 py-3 rounded-full font-medium transition-all duration-300 hover:bg-gray-800 hover:shadow-lg hover:shadow-black/25;
+  }
+  
+  .button-secondary {
+    @apply border-2 border-gray-300 text-gray-700 px-6 py-3 rounded-full font-medium transition-all duration-300 hover:border-accent-red hover:text-accent-red hover:bg-accent-red-light;
+  }
+  
+  .scrollbar-thin {
+    scrollbar-width: thin;
+  }
+  
+  .scrollbar-thumb-gray-300::-webkit-scrollbar-thumb {
+    background-color: #d1d5db;
+    border-radius: 0.5rem;
+  }
+  
+  .scrollbar-track-gray-100::-webkit-scrollbar-track {
+    background-color: #f3f4f6;
+    border-radius: 0.5rem;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+  }
+}
