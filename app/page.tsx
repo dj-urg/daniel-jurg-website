@@ -280,7 +280,7 @@ export default function Home() {
                 citations: "12"
               },
               {
-                title: "Alex, DO NOT BACKPEDAL ON SANDY HOOK!: Reactionary Fandom, Cancel Culture, and the Possibility of 'Audience Capture' on YouTube",
+                title: "Alex, DO NOT BACKPEDAL ON SANDY HOOK!: Reactionary Fandom, Cancel Culture, and the Possibility of &apos;Audience Capture&apos; on YouTube",
                 authors: "Jurg, D., Tuters, M., Picone, I.",
                 journal: "Television & New Media",
                 year: "2025",
@@ -327,14 +327,14 @@ export default function Home() {
                 citations: "1"
               },
               {
-                title: "YouTube's Safety Features Lost In Translation",
+                title: "YouTube&apos;s Safety Features Lost In Translation",
                 authors: "Jurg, D. H. M., Romano, S., Çetin, R. B., Rieder, B.",
                 journal: "AI Forensics",
                 year: "2025",
                 type: "Report"
               },
               {
-                title: "Ranking authority: A critical audit of YouTube's content moderation",
+                title: "Ranking authority: A critical audit of YouTube&apos;s content moderation",
                 authors: "Jurg, D., Romano, S., Rieder, B.",
                 journal: "OSF",
                 year: "2025",
@@ -392,7 +392,7 @@ export default function Home() {
               {
                 title: "Grounds for War",
                 authors: "Jurg, D. H. M.",
-                journal: "Master's Thesis",
+                journal: "Master&apos;s Thesis",
                 year: "2020",
                 type: "Thesis"
               },
